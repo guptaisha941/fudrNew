@@ -11,3 +11,4 @@ To Send OTP
         "mobile" : "919999999999"
 
 
+http://localhost:8080/verify-otp?otp=549898&mobile=919631760481
