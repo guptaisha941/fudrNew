@@ -1,0 +1,13 @@
+To Verify OTP 
+    GetApi - "http://localhost:8080/verify-otp"
+    Req Param includes: 
+        "otp" : 9999
+        "mobile" : "919999999999"
+
+To Send OTP 
+    PostApi - "http://localhost:8080/verify-otp"
+    Req Param includes: 
+        "otp" : 9999
+        "mobile" : "919999999999"
+
+
